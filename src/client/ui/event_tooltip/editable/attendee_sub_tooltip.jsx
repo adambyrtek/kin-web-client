@@ -149,7 +149,7 @@ export default class AttendeeSubTooltip extends React.Component {
                             <input
                               id="event-new-attendee-input"
                               type="email"
-                              autocomplete="off"
+                              autoComplete="off"
                               placeholder="Email"
                               onChange={this.debounced_autocomplete}
                               autoFocus
